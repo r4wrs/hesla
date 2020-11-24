@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<title>Websiteödev</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {box-sizing: border-box}
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+color:white;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #001a1a;
+  overflow: auto;
+
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  width: 20%; 
+  text-align: center;
+
+}
+
+.navbar a:hover {
+  background-color: #1a000a;
+}
+
+.navbar a.active {
+  background-color: #334815;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.border {
+ border: 2px solid;
+ border-color:#66FCF1;
+ border-radius: 8px;
+ }
+ .border2 {
+ border: 1px solid;
+ border-color:#45A29E;
+ border-radius: 8px;
+ }
+ 
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+
+.sutun
+{  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.solyan {
+flex: 25%;
+background-color:#1F2833;
+padding:20px;
+text-align:center;
+}
+
+.sagyan {
+flex: 25%;
+background-color:#1F2833;
+padding:20px;
+text-align:center;
+}
+
+.ana {
+flex: 50%;
+background-color:#0B0C10;
+padding:20px;
+text-align: left;
+}
+
+@media only screen and (max-width:600px) {
+  .solyan, .ana, .sagyan {
+    width:100%;
+  }
+}
+
+.footer {
+  padding: 2px;
+  text-align: center;
+  background: black;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1><img src="img/hesla.png" alt=logo width=40% height=40% ></h1>
+
+</div>
+<div class="navbar">
+  <a class=" border" href="index.htm"><b>Anasayfa</b></a> 
+  <a class=" border"href="Hizmetlerimiz.htm"><b>Hizmetlerimiz</b></a> 
+  <a class=" border"href="Kurumsal.htm"><b>Kurumsal</b></a> 
+  <a class=" active border"href="Kariyer.htm"><b>Kariyer</b></a>
+  <a class=" border"href="İletişim.htm"><b>İletişim</b></a>
+</div>
+  <div class="sutun">
+    <div class="solyan">
+    <h2>Model B </h2>
+    <img class="border2" src="img/modelb.png" alt=araba width=360px height=225px><br>
+    <h2>Model E </h2>
+    <img class="border2" src="img/modele.png" alt=araba2 width=360px height=225px>
+    </div>
+        <div class="ana">
+        <div class="border">
+        <h2 style="text-align:left;">&nbsp&nbspKariyer Fırsatları</h2>
+        <div class= "border2" style="text-align:center; padding:20px;margin:20px;">
+   <img src="img/çalışma1.png" alt="çalışma imkanı" width=30% height=70% >
+   <img src="img/çalışma2.png" alt="çalışma imkanı 2" width=30% height=50% >
+   <img src="img/çalışma3.png" alt="çalışma imkanı 3" width=30% height=50% >
+        </div>
+        
+        </div>
+        </div>
+        
+      <div class="sagyan">
+      <h2>Model S</h2>
+      <img class="border2" src="img/models.png" alt=araba3 width=360px height=225px><br>
+      <h2>Model T</h2>
+      <img class="border2" src="img/modelt.png" alt=araba4 width=360px height=225px>
+      </div>
+   </div>
+   <div class="footer">
+   <p>copyright<sup>©</sup></p>
+   <div style="text-align:right;">
+   <a href="https://www.facebook.com/">
+   <img src="img/facebook.png" alt="facebook"></a>
+   <a href="https://twitter.com/home">
+   <img src="img/twitter.png" alt="twitter"></a>
+   <a href="https://www.instagram.com/">
+   <img src="img/instagram.png" alt="instagram"></a>
+   <a href="https://www.linkedin.com/">
+   <img src="img/linkedin.png" alt="linkedin"></a>
+   </div>
+   </div>
+
+
+</body>
+</html>
